@@ -1,0 +1,25 @@
+﻿.class {
+                font-size: 20px;
+                color: chartreuse;
+                text-align: center;
+                text-decoration: solid;
+            }
+            h1{
+            font-size:50px;
+            text-align:center
+            }
+            body {
+                background-image: url(Images/default.jpg);
+            }
+            table {
+                font-size: 30px;
+                color: white;
+                font-style: italic;
+            }
+            #div1 {
+                margin-left: 30%;
+                margin-top: 10%;
+            }
+            #label1{
+                color:black;
+            }

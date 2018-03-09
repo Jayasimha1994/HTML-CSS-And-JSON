@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<form action="First.html">
+    <head>
+        <title>Login Page</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="Login.css" />
+        <script src="Login.js" type="text/javascript"></script>
+        <style>
+            a {
+                margin-left: 10%;
+            }
+            #a1 {
+                color: white;
+                background-color: black;
+                height: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="class" style="font-size:50px"><u><b><i>Login Page</i></b></u></h1>
+        <a href="Welcome.html" style="color:yellow" alt="Home"><img src="/Images/home.png" style="width:5%;" /></a>
+        <div id="div1">
+            <table id="table1">
+                <tr><th>Login Here</th></tr>
+                <tr><td>Name:</td><td><input type="text" name="name" checked id="name1" placeholder="Name" /></td></tr>
+                <tr><td>Password:</td><td><input type="password" name="password" placeholder="Password" /></td></tr>
+                <tr>
+                    <td><input type="button" value="Login" id="b1" onclick="validate()" style="display:block" /></td>
+                    <td><label for="name" id="label1" style="display:none"><b>Please provide valid inputs</b></label></td>
+                </tr>
+            </table>
+            <input type="submit" value="Continue to website" id="a1" style="display:none">
+        </div>
+    </body>
+</form>
+</html>

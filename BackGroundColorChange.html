@@ -1,0 +1,30 @@
+﻿<script language="javascript">
+
+    function chngebg (id)
+    {
+        switch (id)
+        {
+            case 'b1':
+                document.body.bgColor = "red";
+                break;
+
+            case 'b2':
+                document.body.bgColor = "blue";
+                break;
+
+            case 'b3':
+                document.body.bgColor = "black";
+                break;
+
+            case 'b4':
+                document.body.bgColor = "yellow";
+                break;
+        }
+    }
+</script>
+<body>
+    <input type="button" id="b1" onclick="chngebg(this.id)" value="Red" />
+    <input type="button" id="b2" onclick="chngebg(this.id)" value="Blue" />
+    <input type="button" id="b3" onclick="chngebg(this.id)" value="Black" />
+    <input type="button" id="b4" onclick="chngebg(this.id)" value="Yellow" />
+</body>
