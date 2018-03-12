@@ -1,0 +1,19 @@
+﻿<form>
+    <body>
+        <input type="button" value="click" onclick="Call()" />
+    </body>
+</form>
+<script>
+    var object = '{"name":"jay","food":"Chicken","mobile":"77878787","city":"bangalore"}';
+    var json = JSON.parse(object);
+    function Call()
+    {
+        document.write("Name: "+json.name+"<br>");
+        document.write("Food: "+json.food+"<br>");
+        document.write("mobile: "+json.mobile+"<br>");
+        document.write("city: " + json.city + "<br>");
+        var str = JSON.stringify(json);
+        document.write(str);
+    }
+
+</script>
